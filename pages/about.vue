@@ -5,7 +5,16 @@
 </template>
 
 <script setup>
+useHead({
+    title: 'About',
+    meta: [
+        {
+            name: 'description',
+            content: 'About page'
+        }
+    ]
 
+})
 </script>
 
 <style lang="scss" scoped>

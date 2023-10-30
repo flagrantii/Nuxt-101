@@ -4,6 +4,7 @@
         <NuxtLink to="/">Home</NuxtLink>
         <NuxtLink to="/about">About</NuxtLink>
         <NuxtLink to="/info">Info</NuxtLink>
+        <NuxtLink to="/product">Product</NuxtLink>
     </nav>
     <div>
         <slot />
@@ -19,6 +20,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 nav {
     margin:auto;
@@ -36,10 +38,10 @@ nav a {
     padding: 10px;
 }
 nav a:hover {
-    color: aquamarine;
+    color: rgb(83, 1, 246);
 }
 .logo{
-    color: aquamarine;
+    color: rgb(83, 1, 246);
     margin-right: auto;
     font-size: 18px;
     padding-left: 10px;

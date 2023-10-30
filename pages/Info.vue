@@ -5,7 +5,16 @@
 </template>
 
 <script setup>
+useHead({
+    title: 'info',
+    meta: [
+        {
+            name: 'description',
+            content: 'info page'
+        }
+    ]
 
+})
 </script>
 
 <style scoped>
