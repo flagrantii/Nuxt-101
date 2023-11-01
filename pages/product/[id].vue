@@ -1,4 +1,8 @@
 <template>
+    <Head>
+        <Title>Welcome | {{ product.title }}</Title>
+        <Meta name="description" :content=product.description />
+    </Head>
     <div class="container">
         <div class="sub-container">
             <div class="product-title">
